@@ -1,0 +1,54 @@
+.bio {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 100px;
+}
+
+.bio img {
+  grid-column: 1 / 2;
+  max-width: 300px;
+}
+
+.bio div {
+  grid-column: 2 / -1;
+}
+
+.bio h1 {
+  font-size: 3.75rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.bio h1::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 8px;
+  background: linear-gradient(#f8bfb5, #ec5d40);
+  position: absolute;
+  top: 45px;
+  left: -35px;
+}
+
+.bio h1::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 8px;
+  background: linear-gradient(#f8bfb5, #ec5d40);
+  position: absolute;
+  top: 180px;
+  right: 285px;
+}
+
+.bio p {
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.5em;
+  max-width: 45ch;
+}

@@ -1,0 +1,144 @@
+
+.formacao {
+  background: #732d1e;
+  color: #fff;
+}
+
+.formacao-conteiner {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  padding: 120px 20px;
+  gap: 100px;
+  position: relative;
+}
+
+.formacao-conteiner::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 8px;
+  background: linear-gradient(#ffdfd2, #FFB39B);
+  position:absolute;
+  bottom: -5px;
+  right: 20px;
+}
+
+.formacao-conteiner::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 8px;
+  background: linear-gradient(#ffdfd2, #FFB39B);
+  position:absolute;
+  bottom: -5px;
+}
+
+.formacao-conteiner .subtitulo {
+  grid-column: 1 / 2;
+  color: #a34430;
+  line-height: 1.03em;
+  letter-spacing: 0.018em;
+  max-width: 6ch;
+}
+
+.formacao-texto {
+  grid-column: 2 / -1;
+  color: #FCECE7;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+}
+
+.formacao-texto strong {
+  color: #fff5f1;
+}
+
+.form {
+  grid-column: 2 / -1;
+  color: #FCECE7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.form li {
+  background: #a34430;
+  flex: 1;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-titulo {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #FCECE7;
+  margin-bottom: 10px;
+}
+
+.form h3 {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.form h3::before { 
+  content: '';
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#ffdfd2, #FFB39B);
+  position: absolute;
+  left: -24px;
+}
+
+.form-inst {
+  font-size: 1.125rem;
+}
+
+.idiomas {
+  grid-column: 2;
+}
+
+.idiomas h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(228, 99, 72, 0.85);
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.idiomas h3::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(../img/idiomas.svg) no-repeat center center;
+  left: -40px;
+  align-self: center;
+}
+
+.idiomas-lista li {
+  color: #FCECE7;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.idiomas-lista span {
+  color: #ffdfd2; 
+  font-weight: lighter; 
+}
