@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @font-face {
+            font-family:'Parkinsans';
+            src: url('Parkinsans-VariableFont_wght.ttf') format('truetype');
+        }
+
+        h2#padrao {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2#google {
+            font-family: 'Parkinsans', sans-serif;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Fonte em CSS</h1>
+    <h2 id="padrao"">Podemos configurar fontes padrão do sistema</h2>
+    <h2 id="google">Ou então usar uma fonte do Google Fonts</h2>
+    <h2></h2>
+</body>
+</html>

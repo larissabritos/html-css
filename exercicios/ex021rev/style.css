@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+main {
+    background-color: rgb(251, 225, 122);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px 80px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.35)
+
+}
+
+nav {
+    background-color: rgb(252, 210, 156);
+    padding: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.715);
+    border-radius: 10px;
+    
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+nav > a:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+
+article {
+    background-color: rgb(254, 242, 192);
+    padding: 5px;
+
+}
+
+article > aside {
+    background-color: azure;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: seagreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 4px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(248, 109, 109);
+    border-radius: 100px;
+}
