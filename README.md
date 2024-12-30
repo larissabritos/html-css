@@ -1,6 +1,6 @@
 # html-css
  Curso de HTML5 e CSS3
 
-Eu estou aprendendo a criar sites e agora vou gerenciar repositórios.
+Eu estou aprendendo a criar sites com o Curso de HTML5 e CSS3 do Gustavo Guanabara e este é o meu repositório de exercícios e desafios. 
 
-<a href='https://larissabritos.github.io/html-css/desafios/d010/desafio.html'> Executar o meu primeiro site </a>
+EM BREVE NOVOS PROJETOS! AGUARDEM!
