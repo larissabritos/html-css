@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+:root {
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
