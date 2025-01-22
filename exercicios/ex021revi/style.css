@@ -10,6 +10,16 @@ header > h1 {
 }
 
 section#livros {
-    background-color: lightsteelblue;
+    background-color: lightyellow;
+}
+
+section > h2 {
+    color: lightsalmon;
+    text-decoration: underline;
+}
+
+section > h3 {
+    color: lightcoral;
+    text-decoration: underline;
 }
 
