@@ -13,28 +13,37 @@
         <h1>Revisando Exercícios</h1>
     </header>
     <main>
-        <section>
+        <section id="imagens">
             <h1>Imagem Dinâmica</h1>
-            <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+            <p>Este exercício é para relembrar o quanto as imagens podem ser redimensiondas de acordo com o tamanho das telas. A medida que o tamanho do navegador vai mudando, as imagens vão mudando também.</p>
             <picture>
                 <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
                 <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
                 <img src="imagens/foto-g.png" alt="Imagem flexível">
             </picture>
             <h1>Reproduzindo Áudio</h1>
-            <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+            <p>Este exercício de áudio é para mostrar o controle de áudio e ele deve ser tocado automaticamente ao abrir ou atualizar a página.</p>
             <audio preload="metadata" autoplays controls loop>
                 <source src="midia/guanacast-33.mp3" type="audio/mpeg">
             </audio>
         </section>
 
-        <section>
+        <section id="videos">
             <h1>Vídeos hospedados localmente</h1>
-            <p>Este vídeo está hospedado no meu próprio servidor.</p>
+            <p>Este exercício é para mostrar que os vídeos hospedados localmente, também são reproduzidos se colocados em <em>loop</em>.</p>
             <video width="500" controls autoplay loop>
                 <source media="(max-width: )" srcset="" type="video/">
                 <source src="midia/meu-video.mp4" type="video/mp4">
             </video>
+            <h1>Vídeos do YouTube</h1>
+            <p>O vídeo do YouTube é mais fácil de ser reproduzido se o link foi inserido de forma correta.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=GOw1kI20Kaq3eRHS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="livros">
+            <h1>Capítulo 1</h1>
+            <p>Este exercício é para mostrar que é possível colocar mais de uma cor dentro do texto</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptates hic accusantium in. Accusantium, blanditiis obcaecati, dolorum est nobis ducimus voluptas exercitationem incidunt suscipit cumque expedita voluptates amet perferendis atque.</p>
         </section>
     </main>
 </body>

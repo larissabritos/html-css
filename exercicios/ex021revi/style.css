@@ -2,9 +2,14 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
 
 header > h1 {
     text-align: center;
+}
+
+section#livros {
+    background-color: lightsteelblue;
 }
 
