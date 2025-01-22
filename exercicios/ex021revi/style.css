@@ -13,13 +13,35 @@ section#livros {
     background-color: lightyellow;
 }
 
-section > h2 {
+section#livros > h2 {
     color: lightsalmon;
     text-decoration: underline;
 }
 
-section > h3 {
+section#livros > h3 {
     color: lightcoral;
     text-decoration: underline;
 }
 
+section#borda {
+    background-color: #D5A083;
+    padding: 10px;
+}
+
+section#borda > article {
+    background-color: #E5C9B4;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+section#borda > article > h1 {
+    color: #66796B;
+    text-align: center;
+}
+
+section#borda > article > p {
+    color: #66796B;
+    text-align: center;
+
+}
