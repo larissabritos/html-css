@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@font-face {
+    font-family: 'belgiano-serif-2', serif;
+    src: url(fontes/belgiano-serif-2.otf) format('opentype'), url(fontes/belgiano-serif-2.ttf) format('truetype');
+
+}
+
+
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
@@ -43,8 +51,11 @@ section#borda > article > h1 {
 
 }
 
-section#fontes {
+section#fonte-001 {
     font-family: "Quicksand", serif;
 }
 
+section#fonte-002 {
+    font-family: "Quicksand", serif;
+}
 
