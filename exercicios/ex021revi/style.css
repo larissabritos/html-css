@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 @font-face {
-    font-family: 'belgiano-serif-2', serif;
+    font-family: 'Belgiano';
     src: url(fontes/belgiano-serif-2.otf) format('opentype'), url(fontes/belgiano-serif-2.ttf) format('truetype');
 
 }
@@ -52,10 +52,10 @@ section#borda > article > h1 {
 }
 
 section#fonte-001 {
-    font-family: "Quicksand", serif;
+    font-family: 'Quicksand', serif;
 }
 
 section#fonte-002 {
-    font-family: "Quicksand", serif;
+    font-family: 'Belgiano', serif;
 }
 
