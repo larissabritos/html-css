@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
@@ -32,16 +34,17 @@ section#borda > article {
     background-color: #E5C9B4;
     padding: 10px;
     border-radius: 10px;
-    
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.187);
+    text-align: center;
 }
 
 section#borda > article > h1 {
     color: #66796B;
-    text-align: center;
-}
-
-section#borda > article > p {
-    color: #66796B;
-    text-align: center;
 
 }
+
+section#fontes {
+    font-family: "Quicksand", serif;
+}
+
+
