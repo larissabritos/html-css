@@ -57,3 +57,16 @@ section#fonte-002 {
     font-family: 'Belgiano', serif;
 }
 
+p.paragrafo {
+    display: none;
+}
+
+section#hover:hover {
+    color: #66796B;
+}
+
+section#hover:hover > p {
+    display: block;
+    background-color: #E5C9B4;
+    width: 300px;
+}
