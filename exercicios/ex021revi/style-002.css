@@ -29,3 +29,46 @@ section.fundo-001 > div#d2 {
 section.fundo-001 > div#d3 {
     background-image: url(imagens/pattern003.png);
 }
+
+p > a.inicio {
+    text-decoration: none;
+    color: #D5A083;
+}
+
+p > a.inicio:hover {
+    text-decoration: underline;
+    color: #66796B;
+}
+
+section.fundo-002 {
+    background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+section.fundo-003 > div.bloco {
+    background-image: url(imagens/wallpaper002.jpg);
+    width: 1350px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+div#q1 {
+    background-position: left top;
+}
+
+div#q2 {
+    background-position: left center;
+}
+
+div#q3 {
+    background-position: right bottom;
+}
+
+div#q4 {
+    background-position: center center;
+}
+
+
