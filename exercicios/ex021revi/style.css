@@ -94,7 +94,7 @@ section#box > h2 {
     outline: 10px dashed #D5A083;
 }
 
-a {
+section#box > p > a {
     display: inline;
     border-width: 5px;
     border-style: dashed;
@@ -104,3 +104,14 @@ a {
 
 }
 
+section#imagem-fundo > p > a {
+    color: #66796B;
+    text-decoration: none;
+
+}
+
+section#imagem-fundo > p > a:hover {
+    color: #D5A083;
+    text-decoration: underline;
+
+}
