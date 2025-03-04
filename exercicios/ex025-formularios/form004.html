@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="inome">Seu nome:</label>
+                    <input type="text" name="nome" id="inome" placeholder="Larissa Santos">
+                </p>
+                <p>
+                    <label for="iemail">Seu melhor e-mail:</label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="larissasantos@site.com">
+                </p>
+                <p>
+                    <label for="itel">Seu celular:</label>
+                    <input type="tel" name="tel" id="itel" placeholder="(XX) XXXXX-XXXX" autocomplete="tel-area-code" required pattern="[0-9]{5}-[0-9]{4}">
+                </p>
+            </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
