@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilos para IMPRESSORAS */
+
+* {
+    margin: 3px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content:'Esse artigo foi impresso através do site www.cursoemvideo.com';
+}
