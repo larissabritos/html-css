@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "love larry";
+    src: url("love larry.otf") format(opentype) url("love larry.ttf") format("truetype");
+}
+
+body {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+}
