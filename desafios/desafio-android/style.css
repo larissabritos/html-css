@@ -1,2 +1,44 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #04BF8A;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #03A64A,#025940);
+}
+
+h1#titcabecalho {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+header > p {
+    color: #04BF8A;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    box-shadow: 10px solid black;
+    padding: 0px 10px 10px 10px;
+
+}
+
+nav {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    padding-right: 10px;
+ }
