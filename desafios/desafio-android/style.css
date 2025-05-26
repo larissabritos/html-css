@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'idroid';
-    src: url('../fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -17,28 +17,54 @@
     --cor5: #03A64A;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: "Bebas Neue", sans-serif;
-    --fonte-android: "idroid";
+    --fonte-destaque: "Bebas Neue", serif;
+    --fonte-android: "idroid", monospace;
 }
 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-color: var(--cor3);
     font-family: var(--fonte-padrao);
 }
 
+header {
+    background-color: var(--cor4);
+}
+
 header > h1 {
-    color: var(--cor1);
+    color: white;
     font-family: var(--fonte-destaque);
+}
+
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--cor2);
+}
+
+main {
+    background-color: white;
 }
 
 main h1 {
     color: var(--cor2);
-    font-family: 'idroid';
+    font-family: var(--fonte-android);
 }
 
 main h2 {
-    font-family: 'idroid';
+    font-family: var(--fonte-android)
     
+}
+
+footer {
+    background-color: var(--cor1);
+    color: white;
 }
 
