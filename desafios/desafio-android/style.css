@@ -33,22 +33,49 @@ body {
 }
 
 header {
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     min-height: 150px;
     text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.548);
 }
 
 header > p {
     color: white;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.548);
 }
 
 nav {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.518);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor1);
 }
 
 main {
