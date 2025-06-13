@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exemplo shorthand background</title>
+  <style>
+    .box {
+      width: 300px;
+      height: 200px;
+      border: 1px solid #333;
+      margin-bottom: 20px;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #444;
+      background-repeat: no-repeat;
+    }
+
+    .exemplo1 {
+      background: url('https://picsum.photos/400/200') no-repeat center / contain;
+    }
+
+    .exemplo2 {
+      background: url('https://picsum.photos/400/200') no-repeat top left / 150px 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box exemplo1">
+    background: url(...) no-repeat center / contain;
+  </div>
+
+  <div class="box exemplo2">
+    background: url(...) no-repeat top left / 150px 100px;
+  </div>
+
+</body>
+</html>

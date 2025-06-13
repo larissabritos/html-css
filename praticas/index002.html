@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exemplo background-attachment</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      height: 300px;
+      margin: 20px;
+      border: 1px solid #333;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .scroll {
+      background-image: url('https://picsum.photos/800/600?blur=2');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: scroll;
+      background-position: center;
+      background-color: #333;
+    }
+
+    .fixed {
+      background-image: url('https://picsum.photos/800/600?blur=5');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box scroll">
+    background-attachment: scroll
+  </div>
+
+  <div style="height: 500px;"></div> <!-- espaço para rolar -->
+
+  <div class="box fixed">
+    background-attachment: fixed
+  </div>
+
+  <div style="height: 500px;"></div> <!-- espaço para rolar -->
+
+</body>
+</html>
