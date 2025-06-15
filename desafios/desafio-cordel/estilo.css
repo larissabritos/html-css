@@ -81,3 +81,15 @@ section#carta {
     background-position: center center;
 }
 
+
+/*FOOTER*/
+
+footer p {
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    padding: 15px;
+
+}
+
