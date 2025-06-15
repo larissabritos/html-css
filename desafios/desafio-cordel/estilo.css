@@ -8,9 +8,7 @@
     padding: 0px;
 }
 
-body {
-    font-family: 'Passion One', sans-serif;
-}
+/* HEADER */
 
 header {
     color: white;
@@ -19,7 +17,7 @@ header {
 
 header h1 {
     font-family: 'Bahiana', sans-serif;
-    font-size: 7em;
+    font-size: 8em;
     text-align: center;
     padding-top: 55px;
 }
@@ -38,4 +36,13 @@ header a {
 
 header a:hover {
     text-decoration: underline;
+}
+
+/* SECTION */
+
+section.texto {
+    font-family: 'Passion One', sans-serif;
+    font-style: italic;
+    font-size: 4em;
+    padding: 40px;
 }
