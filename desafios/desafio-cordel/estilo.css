@@ -8,6 +8,11 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Passion One', sans-serif;
+}
+
+
 /* HEADER */
 
 header {
@@ -45,4 +50,34 @@ section.texto {
     font-style: italic;
     font-size: 4em;
     padding: 40px;
+    
 }
+
+section.texto p {
+    padding-bottom: 2em;
+}
+
+section.imagem {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.671);
+    background-size: 50%;
+    font-style: italic;
+    font-size: 4em;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 10px rgb(0, 0, 0);
+    padding: 40px
+    
+}
+
+section#joaninha {
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+
+}
+
+section#carta {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+}
+
