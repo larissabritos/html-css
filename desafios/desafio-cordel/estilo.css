@@ -84,19 +84,21 @@ section.imagem {
     color: white;
     font-style: italic;
     font-size: 3em;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
     background-size: cover;
     background-attachment: fixed;
-    padding: 40px
+    
 }
 
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.651);
+    
 }
 
 section#joaninha {
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
 }
 
 section#carta {
