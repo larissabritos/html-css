@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframe</title>
+    <style>
+        iframe {
+            height: 300px;
+            width: 500px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Teste com iframe</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam inventore quia animi sapiente. Blanditiis molestiae doloremque ratione adipisci aliquam, incidunt, natus nostrum debitis necessitatibus dolorum voluptatum neque, numquam cumque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nihil vitae aliquid. Cumque vel, totam beatae corporis et obcaecati. Ab ratione atque, est illum placeat facere repudiandae fuga praesentium quisquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iusto libero eveniet. Praesentium eum, pariatur blanditiis, id deserunt quo magni quos impedit fugiat, libero cum nulla sit aliquid porro aspernatur?</p>
+    <h1>Páginas no iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam inventore quia animi sapiente. Blanditiis molestiae doloremque ratione adipisci aliquam, incidunt, natus nostrum debitis necessitatibus dolorum voluptatum neque, numquam cumque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aliquam, quis voluptas culpa magni exercitationem omnis, fugiat vero cum ab, illo ex quidem? Laboriosam beatae accusantium laborum deserunt, provident ratione!</p>
 
-    <iframe src="paginas-extras/pagina1-iframe.html" height="300" width="500" frameborder="0"></iframe>
+    <ul>
+        <li><a href="paginas-extras/pagina1-iframe.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pagina2-iframe.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pagina3-iframe.html" target="frame">Terceira Página</a></li>
+    </ul>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam inventore quia animi sapiente. Blanditiis molestiae doloremque ratione adipisci aliquam, incidunt, natus nostrum debitis necessitatibus dolorum voluptatum neque, numquam cumque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nihil vitae aliquid. Cumque vel, totam beatae corporis et obcaecati. Ab ratione atque, est illum placeat facere repudiandae fuga praesentium quisquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iusto libero eveniet. Praesentium eum, pariatur blanditiis, id deserunt quo magni quos impedit fugiat, libero cum nulla sit aliquid porro aspernatur?</p>
+    <iframe src="" name="frame"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam inventore quia animi sapiente. Blanditiis molestiae doloremque ratione adipisci aliquam, incidunt, natus nostrum debitis necessitatibus dolorum voluptatum neque, numquam cumque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nihil vitae aliquid. Cumque vel, totam beatae corporis et obcaecati. Ab ratione atque, est illum placeat facere repudiandae fuga praesentium quisquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iusto libero eveniet. Praesentium eum, pariatur blanditiis, id deserunt quo magni quos impedit fugiat, libero cum nulla sit aliquid porro aspernatur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ducimus quae. Corporis eum provident pariatur eos rem neque delectus dignissimos voluptate porro accusamus? Ipsam repudiandae, ea dolorum animi ex soluta!</p>
 </body>
 </html>
