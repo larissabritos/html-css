@@ -12,30 +12,18 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="nome" id="nome"></p>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="nome">Nome:</label> 
+            <input type="text" name="nome" id="nome">
+        </p>
+
+        <p><label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </p>
+
         <p><input type="submit" value="Enviar"></p>
+
+
     </form>
-
-    
-    <form 
-  action="https://exemplo.com/enviar-dados" 
-  method="post" 
-  autocomplete="on" 
-  target="_blank">
-  <label for="nome">Nome:</label>
-  <input type="text" id="nome" name="nome" required />
-
-  <br><br>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required />
-
-  <br><br>
-
-  <button type="submit">Enviar</button>
-</form>
-
 </body>
 </html>
