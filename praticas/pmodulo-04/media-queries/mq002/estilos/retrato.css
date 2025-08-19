@@ -3,5 +3,6 @@
 /* CONFIGURAÇÃO PORTRAIT */
 
 body {
-    background-color: coral;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
