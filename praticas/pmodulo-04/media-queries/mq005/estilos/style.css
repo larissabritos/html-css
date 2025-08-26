@@ -51,6 +51,12 @@ main {
     border-radius: 10px;
 }
 
-main > article {
-    
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 50px;
 }
